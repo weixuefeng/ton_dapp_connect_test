@@ -11,15 +11,10 @@ function App() {
     validUntil: Math.floor(Date.now() / 1000) + 60, // 60 sec
     messages: [
         {
-            address: "UQAYJPMiSj0awBRzB3rlg4kOe8blGuhzcE4geQnmTFLgXe2a",
-            amount: "1",
+            address: "UQCCJjwbdw9gXLnV9jOmNspqYKhzcVKVlUxShkTHLisynVrW",
+            amount: "10000000",
             // stateInit: "base64bocblahblahblah==" // just for instance. Replace with your transaction initState or remove
         },
-        {
-          address: "UQAYJPMiSj0awBRzB3rlg4kOe8blGuhzcE4geQnmTFLgXe2a",
-          amount: "1",
-          // stateInit: "base64bocblahblahblah==" // just for instance. Replace with your transaction initState or remove
-      },
     ]
 }
 
