@@ -12,7 +12,7 @@ function App() {
     messages: [
         {
             address: "UQCCJjwbdw9gXLnV9jOmNspqYKhzcVKVlUxShkTHLisynVrW",
-            amount: "10000000",
+            amount: "100",
             // stateInit: "base64bocblahblahblah==" // just for instance. Replace with your transaction initState or remove
         },
     ]
