@@ -15,6 +15,11 @@ function App() {
             amount: "100",
             // stateInit: "base64bocblahblahblah==" // just for instance. Replace with your transaction initState or remove
         },
+        {
+          address: "UQCCJjwbdw9gXLnV9jOmNspqYKhzcVKVlUxShkTHLisynVrW",
+          amount: "320",
+          // stateInit: "base64bocblahblahblah==" // just for instance. Replace with your transaction initState or remove
+        },
     ]
 }
 
