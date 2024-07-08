@@ -1,0 +1,37 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls",
+        "delegate_permission/common.get_login_creds"
+      ],
+      "target": {
+        "namespace": "web",
+        "site": "https://https://ton-dapp-connect-test.vercel.app/"
+      }
+    },
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.gate_sdk.web3_wallet_example",
+        "sha256_cert_fingerprints": [
+          "B9:7A:EF:91:5C:BB:1B:91:84:65:76:E6:1A:D1:81:70:1B:51:88:C9:9F:30:50:80:E1:1D:E7:87:3B:C2:C5:27"
+        ]
+      }
+    },
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls",
+        "delegate_permission/common.get_login_creds"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.okinc.okex.gp",
+        "sha256_cert_fingerprints": [
+          "77:B9:67:49:D8:F5:A4:F0:79:AB:17:36:18:4A:1B:D2:87:0D:02:CA:14:CD:1C:A9:FF:BD:A8:1A:CB:65:10:E9"
+        ]
+      }
+    }
+  ]
